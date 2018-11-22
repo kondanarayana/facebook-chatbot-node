@@ -207,7 +207,7 @@ app.get('/', function(req, res) {
 	res.send("Hi I am a chatbot");
 })
 
-let token = "EAAEepP4MwqEBAKD1IcxgXg2txk1I3SlszVoYVNr8RaoDpcDngV36YVhAD0s6stKvMP3V5BoDX6E1cxBiC7JMm0JTXf1MZC3p0emizKmGrCxKywLFZAReZCn9S8cn9bNKF37rYQV8zP7VSVqe7BwZByZAoWDwSo6DWR3lGREWNZCMEygHNb2Uuk";
+let token = "EAAEepP4MwqEBAKo45ChtyZAS2jK4J3P3Iov7Ig9mHk6z3a8qKgXy4L6WQndZAl24hZBRZBl4ixRTn4e0ZB2ZA5QxolQb3f1SZA4547nZCKIAraCBDsrNZCZCVOyZCRz4qDs3RotSF0pvZB4lZA1Ly2bph8ZCeUlJuLLtRwZBHcg2mL2FGjX1LVUwexMjrV6";
 
 // Facebook 
 
