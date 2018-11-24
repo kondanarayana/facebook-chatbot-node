@@ -204,7 +204,7 @@ app.use(bodyParser.json())
 // ROUTES
 
 app.get('/', function(req, res) {
-	res.send("Hi I am a chatbot");
+	res.send(process.env.VERIFY_TOKEN);
 })
 
 let token = "EAAEepP4MwqEBAFIOnauworZCxy5PgjaPdHSOZBPpgBjzA4L19PKh7p46ZCZCfpbHqlkSJ7GRK1op6p9yZBp7XCUPfyyR7iac9XuCiFGjUr9ViX6AeUtKwmydNqcXyp17OyPWF1ZCRibZAog8yAztjCR3PiJaZBCf4RVMgwBCMAI1pF9995ATypnp";
