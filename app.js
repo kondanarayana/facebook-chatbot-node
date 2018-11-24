@@ -22,7 +22,7 @@
 /*
 
 'use strict';
-const PAGE_ACCESS_TOKEN = "EAAEepP4MwqEBACpp90bl9sYUqQSZBLnKs5VeYDtZCF2XvKX2FZAhfuWTt68lAd8ONRukSPz6dpp5dKle8dzwBMFtNIfctMArqSUH1ZCZAcdH5tnU0FESBJBHYMfYJFQCVPznbbK5VY1YWFQPlHttHGIr2ZCLb9TRs87dHdxTWGh3ZCm16CVTGYA";
+const PAGE_ACCESS_TOKEN = "EAAEepP4MwqEBAD5YkZBBPi6oBGPGb7HGHM2vwrVteqkXflzEa6ptZAVXPrMdN2JgNcavWGpj0gz5AaK4rmwzazyoqm4EjzQ7bSZAQkFrLmRm962r6MDnSo14QZB17eJqZBgFlcj6GyyRkht0T2jZBwwxGuONYNdW3tlI2qp1jq0w6R6ZBUcsved";
 // Imports dependencies and set up http server
 const 
   request = require('request'),
@@ -207,12 +207,12 @@ app.get('/', function(req, res) {
 	res.send("Hi I am a chatbot");
 })
 
-let token = "EAAEepP4MwqEBAKo45ChtyZAS2jK4J3P3Iov7Ig9mHk6z3a8qKgXy4L6WQndZAl24hZBRZBl4ixRTn4e0ZB2ZA5QxolQb3f1SZA4547nZCKIAraCBDsrNZCZCVOyZCRz4qDs3RotSF0pvZB4lZA1Ly2bph8ZCeUlJuLLtRwZBHcg2mL2FGjX1LVUwexMjrV6";
+let token = "EAAEepP4MwqEBAD5YkZBBPi6oBGPGb7HGHM2vwrVteqkXflzEa6ptZAVXPrMdN2JgNcavWGpj0gz5AaK4rmwzazyoqm4EjzQ7bSZAQkFrLmRm962r6MDnSo14QZB17eJqZBgFlcj6GyyRkht0T2jZBwwxGuONYNdW3tlI2qp1jq0w6R6ZBUcsved";
 
 // Facebook 
 
 app.get('/webhook/', function(req, res) {
-	if (req.query['hub.verify_token'] === "1860701923") {
+	if (req.query['hub.verify_token'] === "demo123@") {
 		res.send(req.query['hub.challenge'])
 	}
 	res.send("Wrong token")
