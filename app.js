@@ -212,7 +212,7 @@ let token = "EAAEepP4MwqEBAFIOnauworZCxy5PgjaPdHSOZBPpgBjzA4L19PKh7p46ZCZCfpbHql
 // Facebook 
 
 app.get('/webhook/', function(req, res) {
-	if (req.query['hub.verify_token'] === "chatDemo123@") {
+	if (req.query['hub.verify_token'] === process.env.VERIFY_TOKEN) {
 		res.send(req.query['hub.challenge'])
 	}
 	res.send("Wrong token")
