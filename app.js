@@ -207,13 +207,12 @@ app.get('/', function(req, res) {
 	res.send("Hi I am a chatbot");
 })
 
-let token = "EAAFaZBxaaZCYABAJHblZACkYWD7BXi2pV2sw0F1RwdQ6ZBUPINQBepYSZB1ULmZC0Qrgt1yG8fQchARPECcDjbGprV7FeAKQE2rseSRDrNSX3oniu2DIiww4nqAD0P5lIBgyfaCYolNmqUXB1JO5ZAdJnHeUZA50ZAspbfF4nn1oYZB7TL31cL24Id";
+let token = "EAAEepP4MwqEBAFIOnauworZCxy5PgjaPdHSOZBPpgBjzA4L19PKh7p46ZCZCfpbHqlkSJ7GRK1op6p9yZBp7XCUPfyyR7iac9XuCiFGjUr9ViX6AeUtKwmydNqcXyp17OyPWF1ZCRibZAog8yAztjCR3PiJaZBCf4RVMgwBCMAI1pF9995ATypnp";
 
 // Facebook 
-dsfsdfsdf
 
 app.get('/webhook/', function(req, res) {
-	if (req.query['hub.verify_token'] === "chatDemo123") {
+	if (req.query['hub.verify_token'] === "chatDemo123@") {
 		res.send(req.query['hub.challenge'])
 	}
 	res.send("Wrong token")
